@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    margin: 22px 0 0 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    
+}
+li.fright {
+    float: right;
+    padding-right: 15px;
+
+}
+li.fleft {
+    padding-left: 15px;
+}
+
+li {
+    font-family: "Arial", "Sans-Serif";
+    font-size: 13px;
+}
+
+li.rfooter {
+    float: right;  
+    padding-right: 15px;
+}
+li.footer {
+    padding-left: 15px;
+}
+
+div.fnav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(237, 238, 239);
+
+}
+
+center {
+    position: relative;
+    top: 158px;
+}
+
+input[type=text] {
+    padding: 13px 145px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-color: rgb(223, 225, 229);
+    
+}
+
+img {
+    padding-bottom: 25px;
+}
+
+span {
+    
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png")
+}
+
+input[type=submit] {
+    margin-top: 35px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: rgb(223, 225, 229);
+    width: 120px;
+}
+
+li.footer, 
+li.rfooter {
+    position: relative;
+    bottom: 10px;
+    
+    
+}
+input,
+textarea,
+button {
+  border: 1px solid gray; 
+}
+
