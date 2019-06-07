@@ -5,6 +5,8 @@ ul {
 }
 li {
     display: inline;
+    font-family: "Arial", "Sans-Serif";
+    font-size: 13px;
     
 }
 li.fright {
@@ -14,11 +16,6 @@ li.fright {
 }
 li.fleft {
     padding-left: 15px;
-}
-
-li {
-    font-family: "Arial", "Sans-Serif";
-    font-size: 13px;
 }
 
 li.rfooter {
@@ -44,21 +41,19 @@ center {
 }
 
 input[type=text] {
-    padding: 13px 145px;
+    padding: 13px ;
     box-sizing: border-box;
     border-radius: 25px;
     border-color: rgb(223, 225, 229);
-    
+    width: 550px;
 }
 
 img {
     padding-bottom: 25px;
+    position: relative;
+    left: 25px;
 }
 
-span {
-    
-    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png")
-}
 
 input[type=submit] {
     margin-top: 35px;
@@ -83,4 +78,22 @@ textarea,
 button {
   border: 1px solid gray; 
 }
+
+
+
+li, input[type=submit] {
+    color: rgb(95, 99, 104);
+}
+
+#signin {
+    background-color: rgb(66, 133, 244);
+    color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+    border-color: rgb(66, 133, 244);
+    position: relative;
+    bottom: 5px;
+    border: 1px rgb(66, 133, 244) solid;
+}
+
 
